@@ -1,0 +1,16 @@
+{
+  "name": "XiaoZhi AI Voice Assistant - ESP32-S3 N16R8",
+  "version": "1.0.0",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "skynet-xiaozhi-esp32s3-n16r8-merged.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
