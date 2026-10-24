@@ -1,0 +1,16 @@
+{
+  "name": "Skynet Robotics - ESP32 AI Assistant Firmware",
+  "version": "1.0.0",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "skynet-ai-assistant-esp32-original.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
