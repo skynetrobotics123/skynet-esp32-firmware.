@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Skynet Robotics ESP32 Firmware Installer</title></head><body>
+<script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+<section style="max-width:780px;margin:24px auto;padding:32px 20px;background:#f5f8ff;border:1px solid #d7e2f5;border-radius:16px;text-align:center;font-family:Arial,sans-serif;color:#173253;">
+  <div style="font-size:13px;letter-spacing:2px;font-weight:700;color:#2267c7;">SKYNET ROBOTICS</div>
+  <h2 style="margin:14px 0 8px;font-size:28px;">ESP32 AI Voice Assistant</h2>
+  <p>Qwen • DeepSeek • GPT | Browser Firmware Installer</p>
+  <p>Connect a compatible <strong>original ESP32</strong> board using a USB data cable.</p>
+  <esp-web-install-button manifest="./manifest.json">
+    <button slot="activate" type="button" style="background:#1366d6;color:#fff;border:0;border-radius:9px;padding:16px 32px;font-size:17px;font-weight:bold;cursor:pointer;">⚡ Flash Firmware</button>
+    <span slot="unsupported">Open this page in a compatible desktop browser supporting Web Serial, such as Chrome or Edge.</span>
+    <span slot="not-allowed">Please open this page using HTTPS.</span>
+  </esp-web-install-button>
+  <p style="font-size:13px;margin-top:22px;">⚠️ Existing flash contents may be erased. Do not disconnect USB during flashing.</p>
+  <p style="font-size:12px;color:#65758d;">Original firmware retains Zaid greeting, Wi-Fi name and other internal branding. Not for ESP32-S3.</p>
+</section>
+</body></html>
