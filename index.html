@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ESP32 AI Voice Assistant Firmware | Skynet Robotics</title>
+  <meta name="description" content="Install Skynet Robotics XiaoZhi AI Voice Assistant firmware on compatible ESP32 DevKit V1 boards from Chrome or Edge.">
+  <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+  <style>
+    :root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#172b4d;background:#f3f6fb}
+    *{box-sizing:border-box}body{margin:0;padding:36px 15px}
+    main{max-width:690px;margin:auto;background:#fff;padding:36px 28px;border-radius:18px;box-shadow:0 8px 32px #19345c13}
+    h1{font-size:24px;margin:0 0 6px}h2{font-size:19px;margin:24px 0 8px}
+    .brand{color:#155dcc;font-size:13px;font-weight:800;letter-spacing:.09em;text-transform:uppercase}
+    p,li{line-height:1.6;color:#465875}.muted{font-size:14px}
+    .flash{background:#155dcc;border:0;color:white;font-weight:700;font-size:17px;padding:15px 27px;border-radius:10px;cursor:pointer}
+    .flash:hover{background:#0f4cab}.panel{border:1px solid #dce5f2;padding:22px;border-radius:12px;text-align:center;margin-top:22px}
+    .notice{background:#fff8e9;border-left:4px solid #d29524;padding:12px 16px;border-radius:5px}
+    .message{display:block;color:#a12525;font-weight:600}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">Skynet Robotics</div>
+    <h1>ESP32 AI Voice Assistant</h1>
+    <p>Firmware installer for <strong>ESP32 DevKit V1 (original ESP32)</strong> with OLED 128×64 hardware configuration.</p>
+    <div class="panel">
+      <h2>Connect your ESP32 DevKit V1</h2>
+      <p>Connect your board to a computer using a USB data cable.</p>
+      <esp-web-install-button manifest="manifest.json">
+        <button slot="activate" class="flash" type="button">⚡ Flash Firmware</button>
+        <span slot="unsupported" class="message">Use desktop Google Chrome or Microsoft Edge with Web Serial support.</span>
+        <span slot="not-allowed" class="message">Open this installer on a secure HTTPS page.</span>
+      </esp-web-install-button>
+    </div>
+    <h2>Installation steps</h2>
+    <ol>
+      <li>Check that your board is an original ESP32 DevKit V1, not an ESP32-S3.</li>
+      <li>Disconnect external peripherals if they interfere with flashing and connect the USB data cable.</li>
+      <li>Click <strong>Flash Firmware</strong>, choose the serial port, then follow the prompts.</li>
+      <li>Keep USB connected until installation is complete.</li>
+    </ol>
+    <p class="notice"><strong>Warning:</strong> Flashing can erase your existing program and saved device data. Test the firmware and verify microphone, amplifier, OLED and GPIO wiring before giving this installer to customers.</p>
+    <p class="muted">Installation interface powered by ESP Web Tools. Skynet Robotics branding here does not change any internal firmware branding.</p>
+  </main>
+</body>
+</html>

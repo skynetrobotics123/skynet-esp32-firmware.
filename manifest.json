@@ -1,0 +1,15 @@
+{
+  "name": "Skynet Robotics AI Voice Assistant - ESP32 DevKit V1 OLED 128x64",
+  "version": "1.0.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "merged-binary.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
