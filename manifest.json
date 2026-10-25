@@ -1,6 +1,6 @@
 {
-  "name": "Skynet Robotics AI Voice Assistant - ESP32 DevKit V1 OLED 128x64",
-  "version": "1.0.0",
+  "name": "Install XiaoZhi ESP32 Dev Kit V1 OLED 128x64",
+  "version": "2.5.3",
   "builds": [
     {
       "chipFamily": "ESP32",
